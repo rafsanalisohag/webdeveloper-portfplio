@@ -93,20 +93,58 @@ nav a{
     margin-bottom:20px ;
 }
 /* main section style */
+.main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px ;
-    background-color:#f8b281;
-    margin: 130px;
+    background-color:#eceae8;
+    margin: 100px;
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 }
 .about-info{
     text-align: center;
 }
 
+#what-i-do-discription{
+    padding: 30px 150px ;
+
+}
+/* skills related style */
+#what-i-do-discription{
+    padding: 30px 100px ;
+}
+.skills-container{
+    display: flex;
+    padding: 0 159px;
+    gap: 50px;
+}
+.skil{
+    padding: 30px;
+    border-radius: 5px;
+    background: #c3e432;
+    box-shadow: 4px 6px 50px 10px rgba(216, 214, 214, 0.06);
     
+}
+.skill-description{
+    color: #757575;
+}
+/* resume section style */
+.resume-column-title{
+    color: #474747);
+    font-size: 30px;
+    font-weight: 700; 
+
+}
+
+
+
 
